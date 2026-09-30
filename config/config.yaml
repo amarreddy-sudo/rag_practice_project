@@ -1,0 +1,5 @@
+chunk_size: 500
+chunk_overlap: 50
+top_k: 5
+rerank_top_n: 3
+embedding_model: "local-demo-model"

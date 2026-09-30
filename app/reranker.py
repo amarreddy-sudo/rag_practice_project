@@ -1,4 +1,4 @@
-def rerank(query: str, documents: list[str], top_n: int = 3) -> list[str]:
+def rerank(query: str, documents: list[str], top_n: int = 5) -> list[str]:
     """Demo lexical reranker.
 
     Production systems may use a cross-encoder reranker.
